@@ -2,6 +2,7 @@
   --brand-color: #2196f3;
   --common-text-color: #757575;
   --primary-black: #212121;
+  --background-black: #2F303A;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -35,23 +36,78 @@ a {
   font-size: 26px;
   font-family: "Raleway", "Roboto", sans-serif;
   font-weight: bold;
+  font-weight: bold;
+line-height: 31px;
+letter-spacing: 0.03em;
 }
-.about h3 {
+.about {
+  color: var(--primary-black);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
-h1,
-h2,
-h3 {
+.about-text {
+  font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+}
+.worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primary-black);
+}
+.worker-position {
+  font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+}
+.what-are-we-doing,
+.our-team {
+  color: var(--primary-black);
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.solutions {
+  color: #FFFFFF;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.solutions-and-order {
+  background-color: var(--background-black);
 }
 .button-index {
   color: #ffffff;
   background-color: var(--brand-color);
   border: none;
   border-radius: 5px;
+  font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
 .buttons > li > button {
   border: none;
@@ -59,6 +115,10 @@ h3 {
   background: #f5f4fa;
 }
 .buttons > li > button:hover {
+  color: white;
+  background-color: var(--brand-color);
+}
+.buttons > li > button:focus {
   color: white;
   background-color: var(--brand-color);
 }
@@ -85,4 +145,41 @@ a:focus {
 }
 button {
   cursor: pointer;
+}
+footer {
+  background-color: var(--background-black);
+}
+.navigation-header li a {
+  font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.contacts-header li a{
+  font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.navigation-footer {
+  font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+}
+.project-name {
+  color: var(--primary-black);
+  font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+}
+.project-type {
+  font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
 }
