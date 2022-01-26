@@ -184,8 +184,11 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 font-style: normal;
 }
-#contacts-footer {
+.navigation-footer li a {
   color: rgba(255, 255, 255, 0.6);
+}
+#location:hover {
+  color: var(--brand-color);
 }
 .project-name {
   color: var(--primary-black);
